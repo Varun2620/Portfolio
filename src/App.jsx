@@ -55,7 +55,6 @@ function App() {
   )
 
   function handleClick(){
-    console.log('The button is toggled')
     setToggle(prevState => !prevState)
   }
 
