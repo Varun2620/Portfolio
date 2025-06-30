@@ -1,4 +1,4 @@
-const e="/assets/react-CHdo91hT.svg",t="/assets/notedi-CVx84iXm.jpg",a="/assets/memeGen-B3ZFYfH1.png",n="/assets/airBnb-9Jd8avtN.jpg",o="/assets/littleLemon--pxW5Ryp.jpg",i={userRecogintion:{projectName:"User Recognition For App Ratings",projectDesc:`
+const e="/Portfolio/assets/react-CHdo91hT.svg",t="/Portfolio/assets/notedi-CVx84iXm.jpg",a="/Portfolio/assets/memeGen-B3ZFYfH1.png",n="/Portfolio/assets/airBnb-9Jd8avtN.jpg",o="/Portfolio/assets/littleLemon--pxW5Ryp.jpg",i={userRecogintion:{projectName:"User Recognition For App Ratings",projectDesc:`
                         Developed a user recognition system using Python to identify users and allow them to rate 
                         applications, preventing bot reviews. Implemented a secure authentication mechanism to 
                         verify user identities, resulting in a 10% reduction in fraudulent reviews.
