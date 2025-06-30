@@ -92,6 +92,7 @@
 
 .contactBtn:hover{
     background: var(--highlight-color);
+    border-color: var(--background-color);
     transform: scale(1.2);
 }
 
