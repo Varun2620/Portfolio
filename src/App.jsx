@@ -74,7 +74,6 @@ function App() {
               }
               {
                 toggle && <button className='btn' onClick={() => {
-                  console.log('Second button is clicked')
                   setToggle(prevState => !prevState)
                 }}>
                   <img src={Close} alt='Close' className='closeImg'/>
