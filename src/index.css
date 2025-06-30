@@ -1,0 +1,27 @@
+*{
+    margin: 0vh;
+    padding: 0vh;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-color: #FFFFFF;
+    --surface-color: #F2F2F2;
+    --primary-color: #1F1F1F;
+    --highlight-color: #E63946;
+    --text-color: #333333;
+    --text-color2: #888888;
+}
+
+#root{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    height: max-content;
+}
+
+@media (min-width: 100px) and (max-width: 1000px){
+    #root{
+        width: 100%;
+        height: 100%;
+    }
+}
