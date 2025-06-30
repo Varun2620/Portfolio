@@ -60,7 +60,7 @@ function App() {
 
   return (
     <>
-      <Router basename='/Portfolio/'>
+      <Router>
         <section className="portHeader">
             <img src={Logo}></img>
             <div className='btnContainer'>
