@@ -48,6 +48,12 @@
     transition: transform 0.3s ease-in;
 }
 
+.aboutBtn>a{
+    color: var(--background-color);
+    text-align: center;
+    text-decoration: none;
+}
+
 .aboutBtn:hover{
     color: var(--background-color);
     background-color: var(--highlight-color);

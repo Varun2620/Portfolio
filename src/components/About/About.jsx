@@ -4,18 +4,18 @@ import './About.css'
 
 function About() {
 
-  async function fileDownload(){
-    try{
-      const res = await fetch('/Varunkumar_M_resume.pdf')
-      const blob = await res.blob()
+  // async function fileDownload(){
+  //   try{
+  //     const res = await fetch(`${window.location.origin}/Varunkumar_M_resume.pdf`)
+  //     const blob = await res.blob()
 
-      const pdfBlob = new Blob([blob], {type: 'application/pdf'})
+  //     const pdfBlob = new Blob([blob], {type: 'application/pdf'})
       
-      saveAs(pdfBlob, 'Resume.pdf')
-    }catch(err){
-      console.error('Error downloading PDF', err)
-    }
-  }
+  //     saveAs(pdfBlob, 'Resume.pdf')
+  //   }catch(err){
+  //     console.error('Error downloading PDF', err)
+  //   }
+  // }
 
   return (
     <section className="aboutContainer" id='about'>
@@ -40,7 +40,11 @@ function About() {
               Apart from coding, I enjoy discovering new technologies, honing my UI/UX skills, and learning 
               from community-driven development. Let's connect and create something amazing together!
             </p>
-            <button className='aboutBtn' onClick={fileDownload}>Download Resume</button>
+            <button className='aboutBtn'>
+              <a href={`${import.meta.env.BASE_URL}Varunkumar_M_resume.pdf`} download={'Resume.pdf'}>
+                Download Resume
+              </a>  
+            </button>
         </article>
     </section>
   )
