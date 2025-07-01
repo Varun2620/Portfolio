@@ -8,8 +8,10 @@ function About() {
     try{
       const res = await fetch('/Varunkumar_M_resume.pdf')
       const blob = await res.blob()
+
+      const pdfBlob = new Blob([blob], {type: 'application/pdf'})
       
-      saveAs(blob, 'Resume.pdf')
+      saveAs(pdfBlob, 'Resume.pdf')
     }catch(err){
       console.error('Error downloading PDF', err)
     }
