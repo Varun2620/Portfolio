@@ -6,7 +6,7 @@ function About() {
 
   async function fileDownload(){
     try{
-      const res = await fetch('/Varunkumar_M_res.pdf')
+      const res = await fetch('/Varunkumar_M_resume.pdf')
       const blob = await res.blob()
       
       saveAs(blob, 'Resume.pdf')
